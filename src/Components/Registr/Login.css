@@ -1,0 +1,90 @@
+.container{
+    margin-top: 20px;
+}
+.loginImages{
+    background-image: url("./images/LoginBackround.png");
+    background-repeat: no-repeat;
+    background-position: right ;
+    height: 600px;
+    flex: 1;
+}
+.scroleImg{
+    margin: 90px 0 0 288px;
+    position: relative;
+}
+.scroleImg > img{
+    height: 427px;
+    left: 0; 
+    position: absolute;
+    top: 0;
+    width: 240px;
+}
+.registrInput{
+    width: 47%;
+    margin-top: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.usersInput{
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    height: 380px;
+    padding: 30px;
+}
+.inputs > input{
+    height: 36px;
+    font-size: 12px !important;
+}
+.userInput{
+    border: 1px solid #dbdbdb;
+    width: 350px;
+    height: 63px;
+    font-size: 14px;
+}
+.aplications{
+    width: 350px;
+    text-align: center;
+}
+.liner{
+    display: flex;
+    align-items: center;
+    margin: 12px;
+}
+.lineOne{
+    flex: 1;
+    border: 1px solid #dbdbdb;
+}
+.or{
+    margin: 0 5px;
+    font-size: 14px;
+    font-weight: 900;
+}
+
+.footer{
+    margin-top: 35px;
+    text-align: center !important;
+}
+.footer > p{
+    font-size: 12px;
+    color: rgb(168, 166, 162);
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
+ul >li{
+    padding-left: 15px;
+}
+ul > li > a{
+    color: rgb(168, 166, 162);
+}
+ul > li >a:hover{
+    color: rgb(168, 166, 162);
+}
+.forgotPassword{
+    font-size: 12px;
+}
+.facebook{
+    font-size: 14px;
+}
