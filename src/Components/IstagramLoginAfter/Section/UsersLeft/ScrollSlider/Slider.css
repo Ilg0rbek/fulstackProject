@@ -1,0 +1,15 @@
+.slider{
+   width: 614px;
+   height: 100%;
+   border: 1px solid #D2D2D2;
+   padding: 15px 10px 10px 1px;
+}
+.avatarImages{
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    border-radius: 50%;
+}
+.scroll{
+    height: 60px !important;
+}

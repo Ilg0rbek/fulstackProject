@@ -1,27 +1,25 @@
 .container{
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .loginImages{
     background-image: url("./images/LoginBackround.png");
     background-repeat: no-repeat;
     background-position: right ;
     height: 600px;
+    position: relative;
     flex: 1;
 }
 .scroleImg{
-    margin: 90px 0 0 288px;
-    position: relative;
-}
-.scroleImg > img{
-    height: 427px;
-    left: 0; 
-    position: absolute;
-    top: 0;
-    width: 240px;
+   background-image: url("./images/image1.jpeg");
+   position: absolute;
+   height: 427px;
+   width: 240px;
+   right: 63px;
+   bottom: 82px;
+   
 }
 .registrInput{
     width: 47%;
-    margin-top: 35px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .usersInput{
@@ -70,6 +68,7 @@
 ul{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     font-size: 12px;
 }
@@ -87,4 +86,35 @@ ul > li >a:hover{
 }
 .facebook{
     font-size: 14px;
+}
+@media only screen and (max-width: 1012px)  {
+     .loginImages{
+         display: none;
+     }
+     .registrInput{
+         text-align: center;
+         width: 100%;
+     }
+     .usersInput{
+         margin: auto;
+     }
+     .userInput{
+        margin: auto;
+    }
+    .aplications{
+        margin: auto;
+    }
+     .footer{
+        margin-top: 35px;
+        text-align: center !important;
+     }
+     ul >li{
+        padding-bottom: 10px;
+    }
+    ul{
+       display: flex;
+       justify-content: center;
+       padding: 0 !important;
+       margin: 0 !important;
+    }
 }

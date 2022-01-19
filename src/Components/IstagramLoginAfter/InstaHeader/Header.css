@@ -1,0 +1,80 @@
+.headerWidth{
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #D2D2D2;
+    padding: 15px;
+    height: 60px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75%;
+    margin: auto;
+}
+.instaImg{
+       width: 103px;
+       height: 29px;
+}
+.searchInput{
+    display: flex;
+    align-items: center;
+    background-color: #EBEBEB;
+    width: 268px;
+    height: 34px;
+    margin-left: 160px;
+    border-radius: 8px;
+}
+.searchInput > input{
+    height: 30px !important;
+    border: none !important;
+    padding-left: 8px;
+    background-color: #EBEBEB;
+}
+.searchInput > input:focus-visible{
+    outline: none !important;
+}
+.searchInput > .MuiSvgIcon-fontSizeMedium{
+    margin-left: 13px;
+    font-size: 20px;
+    color: #D2D2D2;
+}
+.headerIcons > .MuiSvgIcon-root{
+    width: 28px;
+    height: 28px;
+    margin-right: 20px;
+}
+.headerIcons > .css-2s90m6-MuiAvatar-root{
+    width: 28px !important;
+    height: 28px !important;
+    margin-right: 18px;
+}
+.headerIcons{
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 1150px) and (min-width: 900px)  {
+    .searchInput{
+           margin-left: 20px;
+    }
+}
+@media only screen and (max-width:900px){
+    .header{
+        width: 85%;
+    }
+    .searchInput{
+        display: none;
+    }
+}
+@media only screen and (max-width:570px){
+    .headerIcons > .MuiSvgIcon-root{
+        margin-right: 5px;
+    }
+    .header{
+        display: flex;
+        justify-content: space-between;
+        width: 98%;
+    }
+    .headerIcons > .css-2s90m6-MuiAvatar-root{
+        margin-right: 0;
+    }
+}

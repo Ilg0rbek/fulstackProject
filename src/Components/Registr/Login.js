@@ -12,7 +12,7 @@ const Login = () => {
             <div className="container d-flex">
                 <div className="loginImages">
                     <div className="scroleImg">
-                        <img src={ImageOne} alt="" />
+
                     </div>
                 </div>
                 <div className="registrInput">
